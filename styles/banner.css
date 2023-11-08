@@ -31,7 +31,7 @@
     font-family: var(--tertiaryfont);
     font-weight: 400;
     font-size: 14px;
-    background: url("/assets/Lupa.svg") no-repeat;
+    background: url("../assets/Lupa.svg") no-repeat;
     background-position: 0.5em;
 }
 
