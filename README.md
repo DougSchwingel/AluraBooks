@@ -1,6 +1,6 @@
 # AluraBooks 📖
 
-![https://img.shields.io/badge/:badgeContent](https://img.shields.io/static/v1?label=STATUS&message=FINALIZADO&color=GREEN&style=for-the-badge)
+![https://img.shields.io/badge/:badgeContent](https://img.shields.io/static/v1?label=STATUS&message=FINALIZADO?&color=GREEN&style=for-the-badge)
 
 Projeto da Formação: A partir do zero: HTML e CSS para projetos web - 51hs - Alura
 ## Sobre
