@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;400;600;700&family=Krona+One&family=Montserrat:wght@100;400;600;800&family=Poppins:ital,wght@0,200;0,400;0,800;1,600&display=swap');
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carousel.css");
+@import url("styles/topics.css");
+@import url("styles/contact.css");
+@import url("styles/footer.css");
+
+:root {
+    --primaryfont-color: #002F52;
+    --secondaryfont-color: #EB9B00;
+    --tertiaryfont-color: #000000;
+    --gradientfont-color: linear-gradient(97.54deg, #002f52 35.94%, #326589 165.37%);
+    --button-color: #002F52;
+    --button2-color: #EB9B00;
+    --background-color: #EBECEE;
+    --background2-color: #FFFFFF;
+    --primaryfont: 'Krona One', sans-serif;
+    --secondaryfont: 'Montserrat', sans-serif;
+    --tertiaryfont: 'Poppins', sans-serif;
+    --quarternaryfont: 'Josefin Sans', sans-serif;
+}
+
+
+body {
+    background-color: var(--background-color);
+    font-family: var(--tertiaryfont);
+}

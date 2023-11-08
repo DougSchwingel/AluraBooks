@@ -1,0 +1,109 @@
+.contact {
+    background-color: var(--background2-color);
+    padding: 0.5em;
+    text-align: center;
+}
+
+.contact_title,
+.contact_text {
+    background: var(--gradientfont-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.contact_title {
+    margin: 0.5em 0em;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.contact_text {
+    margin: 0em 0em 1em 0em;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.contact_email {
+    padding: 1em;
+    border: 1px solid var(--button-color);
+    border-radius: 24px;
+    width: 85%;
+    color: var(--primaryfont-color);
+}
+
+.contact_email::placeholder {
+    font-family: var(--tertiaryfont);
+    font-size: 16px;
+    color: var(--primaryfont-color);
+    background: url("/assets/Email.svg") no-repeat;
+    background-position: 0.5em;
+    padding-left: 2.5em;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .contact {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact_description {
+        text-align: start;
+        margin-right: 2em;
+        width: 40%;
+    }
+
+    .contact_title {
+        font-weight: 700;
+        font-size: 2.5vw;
+        margin-bottom: 1em;
+    }
+
+    .contact_text {
+        font-size: 1.9vw;
+    }
+
+    .contact_email {
+        width: 30%;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+
+    .contact {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact_description {
+        text-align: start;
+        margin-right: 2em;
+        width: 35%;
+    }
+
+    .contact_title {
+        font-weight: 700;
+        font-size: 2.3vw;
+        margin-bottom: 1em;
+    }
+
+    .contact_text {
+        font-size: 1.9vw;
+    }
+
+    .contact_email {
+        width: 30%;
+    }
+
+    .contact_email::placeholder {
+        font-family: var(--tertiaryfont);
+        font-size: 20px;
+        color: var(--primaryfont-color);
+        background: url("/assets/Email.svg") no-repeat;
+        background-position: 0.5em;
+        padding-left: 2.5em;
+    }
+}
