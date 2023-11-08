@@ -36,7 +36,7 @@
     font-family: var(--tertiaryfont);
     font-size: 16px;
     color: var(--primaryfont-color);
-    background: url("/assets/Email.svg") no-repeat;
+    background: url("../assets/Email.svg") no-repeat;
     background-position: 0.5em;
     padding-left: 2.5em;
 }
